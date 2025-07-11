@@ -68,3 +68,13 @@ print(a is not b)  # True
 shopping_list = ['milk', 'bread', 'eggs']
 print('milk' in shopping_list)      # True
 print('butter' not in shopping_list)
+
+# 🧾 Bitwise Operators Summary:
+
+#Operator	Name	Example (a=5, b=3)	Result	Binary Explanation
+#&	AND	a & b	1	0101 & 0011 = 0001
+#`	`	OR	`a	b`
+#^	XOR (exclusive)	a ^ b	6	0101 ^ 0011 = 0110
+#~	NOT	~a	-6	~0101 = -(0101+1) = -6
+#<<	Left Shift	a << 1	10	0101 << 1 = 1010 (shift left, ×2)
+#>>	Right Shift	a >> 1	2	0101 >> 1 = 0010 (shift right, ÷2)

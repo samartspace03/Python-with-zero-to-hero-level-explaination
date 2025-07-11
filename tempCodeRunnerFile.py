@@ -1,7 +1,5 @@
-class Solution:
-    def sumOfNum(num):
-        return num * (num + 1) // 2
-    
-num = int(input("enter num: "))
-sum = Solution.sumOfNum(num)
-print(num, sum)
+a = int(input("enter a: "))
+n= int(input("enter n : "))
+r= int(input("enter r: "))
+geometric_prog = a * r **(n - 1)
+print(geometric_prog)
