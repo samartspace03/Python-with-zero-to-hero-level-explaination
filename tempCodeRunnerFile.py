@@ -1,5 +1,9 @@
-a = int(input("enter a: "))
-n= int(input("enter n : "))
-r= int(input("enter r: "))
-geometric_prog = a * r **(n - 1)
-print(geometric_prog)
+A = input("str: ")
+B = input("str: ")
+last_index = A.rfind(B)
+
+# Convert to 1-based index if found
+if last_index != -1:
+    print(last_index + 1)
+else:
+    print(-1) 

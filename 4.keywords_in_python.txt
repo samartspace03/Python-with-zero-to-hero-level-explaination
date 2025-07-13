@@ -1,0 +1,34 @@
+In Python, keywords are reserved words that have special meaning and cannot be used as identifiers (like variable names, function names, etc.). These keywords define the syntax and structure of the Python language.
+
+✅ List of Common Python Keywords (Real-World Examples Included)
+Keyword	Meaning	Real-World Example
+
+if, else, elif--> ditional branching	-- traficlight"If red, stop; elif yellow, slow down; else, go."
+
+for, while---ops for repetition	Washing Machine:-"Repeat spin cycle 5 times using a for loop."
+
+break, continue-Control loop execution--ueue at ATM: "Break when cash runs out."
+
+def-Defines a function	Calculator App:-"Define a function to add two numbers."
+
+return-Exits a function and gives back a value-Order System: "Return bill amount after calculating price."
+
+class, object--or object-oriented programming-Car Blueprint: "Create a Car class to make multiple cars (objects)."
+
+import-Brings in external modules-Toolbox: "Import math tools like square root from math."
+
+try, except-Error handling-Bank Transaction: "Try to withdraw money, except if balance is low."
+
+in-Checks membership-Library:-"Is the book in the shelf?"
+
+is-Identity check	Face ID:-"Is this face the same as the owner’s?"
+
+True, False-Boolean values	Electric Switch: On = True, Off = False
+
+None-Represents no value-Empty Slot in Parking Lot: Slot = None
+
+and, or, not-Logical operators-Login System: "Login if username and password are correct."
+
+global, nonlocal-Scope of variables	Company Data: global sales accessed across branches
+
+pass-Placeholder for future code-Construction Plan: "Pass here now, build later."

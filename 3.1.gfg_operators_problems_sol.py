@@ -209,3 +209,44 @@ r= int(input("enter r: "))
 geometric_prog = a * r **(n - 1)
 print(geometric_prog)
 
+# 14. Given a temperature in celsius C. You have to convert it in Fahrenheit.
+# Formula to convert celsius to fahrenheit is (C × 9/5) + 32
+c = int(input("enter celsius: "))
+f = (c * 9/5) + 32
+print(f)
+
+#15.A series with same common difference is known as arithmetic series. The first term of series is 'a' and common difference is d. The series looks like a, a + d, a + 2d, a + 3d, . . . Find the sum of series upto nth term.
+#sum of series is given by Sn = n/2 * [2a + (n-1)* d]
+a = int(input("enter a: "))
+d = int(input("enter d: "))
+n = int(input("enter n: "))
+sum_of_series = n/2 * (2*a + (n-1)*d)
+print(sum_of_series)
+
+# 16> For an integer n, find the number of trailing zeroes in n!.
+
+# The number of trailing zeroes in n! is given by n!//5 + n!//
+  
+# Take input from the user and convert it to an integer
+n = int(input("enter n:")) 
+
+# Initialize factorial value to 1
+fact = 1
+
+# Loop from 1 to n to calculate factorial
+for i in range(1, n+1):
+    fact *= i  # Multiply fact by i in each iteration to compute factorial
+
+    # Initialize count of trailing zeros (or how many times divisible by 5)
+    count = 0
+
+    # While fact is divisible by 5, remove the factor of 5 and count it
+    while(fact % 5 == 0):
+        fact //= 5      # Remove one 5 from the factorial
+        count += 1      # Increase count of removed 5s
+
+        # Print the count each time we remove a 5
+        print(count)
+
+#
+
