@@ -1,34 +1,36 @@
 In Python, keywords are reserved words that have special meaning and cannot be used as identifiers (like variable names, function names, etc.). These keywords define the syntax and structure of the Python language.
 
 ✅ List of Common Python Keywords (Real-World Examples Included)
+
 Keyword	Meaning	Real-World Example
 
-if, else, elif--> ditional branching	-- traficlight"If red, stop; elif yellow, slow down; else, go."
 
-for, while---ops for repetition	Washing Machine:-"Repeat spin cycle 5 times using a for loop."
+1) if, else, elif--> ditional branching	-------- traficlight"If red, stop; elif yellow, slow down; else, go."
 
-break, continue-Control loop execution--ueue at ATM: "Break when cash runs out."
+2) for, while-------ops for repetition	Washing Machine:-"Repeat spin cycle 5 times using a for loop."
 
-def-Defines a function	Calculator App:-"Define a function to add two numbers."
+3) break, continue--------------Control loop execution--ueue at ATM: "Break when cash runs out."
 
-return-Exits a function and gives back a value-Order System: "Return bill amount after calculating price."
+4) def-Defines a function	Calculator App:-"Define a function to add two numbers."
 
-class, object--or object-oriented programming-Car Blueprint: "Create a Car class to make multiple cars (objects)."
+5) return------------Exits a function and gives back a value-Order System: "Return bill amount after calculating price."
 
-import-Brings in external modules-Toolbox: "Import math tools like square root from math."
+6) class, object---------------or object-oriented programming-Car Blueprint: "Create a Car class to make multiple cars (objects)."
 
-try, except-Error handling-Bank Transaction: "Try to withdraw money, except if balance is low."
+7) import----------------Brings in external modules-Toolbox: ----------"Import math tools like square root from math."
 
-in-Checks membership-Library:-"Is the book in the shelf?"
+8) try, except----------------Error handling-Bank Transaction:--------- "Try to withdraw money, except if balance is low."
 
-is-Identity check	Face ID:-"Is this face the same as the owner’s?"
+9) in---------------Checks membership-Library:------------------"Is the book in the shelf?"
 
-True, False-Boolean values	Electric Switch: On = True, Off = False
+10) is----------Identity check	Face ID:-----------"Is this face the same as the owner’s?"
 
-None-Represents no value-Empty Slot in Parking Lot: Slot = None
+11) True, False-Boolean values---------------	Electric Switch: On = True, Off = False
 
-and, or, not-Logical operators-Login System: "Login if username and password are correct."
+12) None-----------Represents no value-Empty Slot in Parking Lot: Slot = None
 
-global, nonlocal-Scope of variables	Company Data: global sales accessed across branches
+13) and, or, not------------Logical operators-Login System: "Login if username and password are correct."
 
-pass-Placeholder for future code-Construction Plan: "Pass here now, build later."
+14) global, nonlocal-------Scope of variables	Company Data: global sales accessed across branches
+
+15) pass----------Placeholder for future code-Construction Plan: "Pass here now, build later."
